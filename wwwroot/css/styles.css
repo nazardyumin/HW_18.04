@@ -1,0 +1,42 @@
+.active {
+    color:aliceblue;
+    background-color: black;
+}
+
+#searchBtn {
+    margin-top: 10px;
+}
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#movieItem {
+    display: flex;
+    border: 1px solid darkgray;
+    width: 380px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#movieItem>img {
+    width:180px;
+    height: 250px;
+}
+
+#movieItem>div {
+    margin-left: 10px;
+}
+
+#movieInfo {
+    display: flex;
+    margin-top: 30px;
+}
+
+#movieInfo>img {
+    margin-right: 30px;
+}
